@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+<h1>HOME PAGE</h1>
+<button type="button"><a href="{% url 'home' %}">HOME</a></button>
+<button type="button"><a href="{% url 'register' %}">REGISTER</a></button>
+<button type="button"><a href="{% url 'login' %}">LOGIN ME</a></button>
+<button type="button"><a href="{% url 'logout' %}">LOGOUT</a></button>
+
+
+
+<h1>{{request.user}}</h1>
+
+
+
+
+
+
+  </body>
+</html>
